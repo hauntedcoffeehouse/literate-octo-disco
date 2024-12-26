@@ -5,6 +5,7 @@ import UnoCSS from 'unocss/astro';
 export default defineConfig({
   // used to generate images
   site: 'https://frolicking-paprenjak-7725af.netlify.app/'
+}
     process.env.VERCEL_ENV === 'production'
       ? 'https://brutal.elian.codes/'
       : process.env.VERCEL_URL
